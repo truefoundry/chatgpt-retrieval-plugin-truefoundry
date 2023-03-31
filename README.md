@@ -1,11 +1,9 @@
-# chatgpt-retrieval-plugin-truefoundry
-
-## A guide to deploying ChatGPT Retrieval Plugin on TrueFoundry
+# A guide to deploying ChatGPT Retrieval Plugin on TrueFoundry
 
 To deploy the Docker container from this [OpenAI repository](https://github.com/openai/chatgpt-retrieval-plugin) to TrueFoundry, follow these steps:
 
  1. Create a free account with [TrueFoundry](https://app.truefoundry.com/) and create a new workspace with a unique name.
- 2. Go to the [secrets console](https://app.truefoundry.com/secrets). Create a new secret group and create secrets for your chosen vector DB. You can find the list of environment variables needed for each vector DB [here](https://github.com/openai/chatgpt-retrieval-plugin#choosing-a-vector-database).
+ 2. Go to the [secrets console](https://app.truefoundry.com/secrets). Create a new [secret group](https://docs.truefoundry.com/docs/secrets) and create secrets for your chosen vector DB. You can find the list of environment variables needed for each vector DB [here](https://github.com/openai/chatgpt-retrieval-plugin#choosing-a-vector-database).
     ![create secret group](./create-secret-group.png)
  3. Go to the [deployment console](https://app.truefoundry.com/deployments). Create a new service in your workspace.
     ![create service](./create-service.png)
