@@ -16,5 +16,5 @@ To deploy the Docker container from this repository to TrueFoundry, follow these
 ### 6. Add the environment variables and set them to the secrets you just created.
    ![env setting](./setting-envs.png)
 ### 7. Deploy and your plugin webapp and endpoint should show up in the [deployments tab](https://app.truefoundry.com/deployments).
-    ![deployed service](./deployed-svc.png)
+![deployed service](./deployed-svc.png)
 
